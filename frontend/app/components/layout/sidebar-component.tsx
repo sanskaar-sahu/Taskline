@@ -47,16 +47,6 @@ export const SidebarComponent = ({
       href: `/members`,
       icon: Users,
     },
-    {
-      title: "Achieved",
-      href: `/achieved`,
-      icon: CheckCircle2,
-    },
-    {
-      title: "Settings",
-      href: "/settings",
-      icon: Settings,
-    },
   ];
 
   return (
@@ -72,7 +62,7 @@ export const SidebarComponent = ({
             <div className="flex items-center gap-2">
               <Wrench className="size-6 text-blue-600" />
               <span className="font-semibold text-lg hidden md:block">
-                TaskHuh
+                TaskLine
               </span>
             </div>
           )}

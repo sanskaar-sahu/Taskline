@@ -46,7 +46,7 @@ const Dashboard = () => {
         <h1 className="text-2xl font-bold">Dashboard</h1>
       </div>
 
-      <StatsCard data={data.stats} />
+      <StatsCard data={data?.stats} />
 
       <StatisticsCharts
         stats={data.stats}

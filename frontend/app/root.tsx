@@ -24,6 +24,14 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
+export const meta: Route.MetaFunction = () => {
+  return [
+    { title: "TaskLine | Project Management App" },
+    { name: "description", content: "Manage projects and tasks efficiently using TaskLine." },
+    { name: "author", content: "SAS Group" },
+  ];
+};
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
